@@ -4,8 +4,6 @@ HAS_ISSUES=0
 FIRST_FILE=1
 
 for file in $(git diff --name-only --cached); do
-    echo "Checking file: $file"  # Debugging line
-    
     if [[ $file == *.rs ]]; then
         FMT_RESULT="$(rustfmt --skip-children --force --write-mode diff "$file" 2>/dev/null || true)"
         
