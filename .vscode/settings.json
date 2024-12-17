@@ -1,10 +1,19 @@
 {
     "cSpell.words": [
         "actix",
+        "chrono",
         "Clippy",
         "dtolnay",
+        "PGPASSWORD",
+        "psql",
+        "quickcheck",
         "reqwest",
+        "rustls",
         "seccomp",
-        "Swatinem"
+        "serde",
+        "sqlx",
+        "Swatinem",
+        "thiserror",
+        "wiremock"
     ]
 }
