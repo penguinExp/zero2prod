@@ -10,6 +10,7 @@
         "psql",
         "quickcheck",
         "reqwest",
+        "rustflags",
         "rustls",
         "rustup",
         "seccomp",
